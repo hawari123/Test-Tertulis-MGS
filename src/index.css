@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "CustomFont";
+}
+
+body{
+  background-color: blue;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75em;
+}
+
+.cover {
+  background-color: rgb(229, 226, 226);
+  width: 30%;
+  height: 60%;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cover2 {
+  background-color: rgb(229, 226, 226);
+  width: 30%;
+  height: 75%;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input {
+  border: none;
+  width: 80%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+
+input:focus {
+  outline-color: rgb(32, 177, 255);
+  
+}
+
+.btn {
+  width: 40%;
+  height: 3em;
+  background-color: rgb(32, 177, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+a{
+  color: inherit;
+}
+
+.apa{
+  position: absolute; 
+  bottom: 90px;
+  right: 42%;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.apa2{
+  position: absolute; 
+  bottom: 58px;
+  right: 42%;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.ava{
+  position: absolute; 
+  bottom: 60px;
+  right: 40%;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
